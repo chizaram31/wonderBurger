@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Burger App - Cart</title>
+    <link rel="stylesheet" href="./css/cart.css">
+</head>
+<body>
+
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+        <div class="logo">wondaBuka</div>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="index.html">Menu</a></li>
+            <li><a href="cart.html" class="cta">Cart</a></li>
+        </ul>
+    </nav>
+
+    <!-- Cart View -->
+    <section class="cart-view">
+        <h1>Your Cart</h1>
+
+        <div class="cart-items">
+            <!-- Sample Cart Item -->
+            <div class="cart-item">
+                <img src="images/pic1.jpeg" alt="Burger Image">
+                <div class="cart-item-details">
+                    <h3 class="cart-item-name">Classic Cheeseburger</h3>
+                    <p class="cart-item-price">$8.99</p>
+                </div>
+                <div class="cart-item-quantity">
+                    <button>-</button>
+                    <span>1</span>
+                    <button>+</button>
+                </div>
+                <p class="cart-item-total">$8.99</p>
+            </div>
+
+            <div class="cart-item">
+                <img src="images/pic2.jpeg" alt="Fries Image">
+                <div class="cart-item-details">
+                    <h3 class="cart-item-name">Crispy Fries</h3>
+                    <p class="cart-item-price">$3.49</p>
+                </div>
+                <div class="cart-item-quantity">
+                    <button>-</button>
+                    <span>2</span>
+                    <button>+</button>
+                </div>
+                <p class="cart-item-total">$6.98</p>
+            </div>
+
+        </div>
+
+        <div class="cart-total">
+            <p>Total: <strong>$15.97</strong></p>
+        </div>
+
+        <button class="checkout-button">Proceed to Checkout</button>
+        <button class="checkout-button"><a href="menu.html">Back to menu</a></button>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 wondaBuka. All Rights Reserved.</p>
+    </footer>
+
+</body>
+</html>

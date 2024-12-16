@@ -1,0 +1,155 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #ff6600;
+    padding: 1rem 2rem;
+}
+
+.logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #fff;
+}
+
+.navbar ul {
+    display: flex;
+    list-style: none;
+}
+
+.navbar ul li {
+    margin: 0 1rem;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 1rem;
+    transition: color 0.3s;
+}
+
+.navbar ul li a:hover {
+    color: #333;
+}
+
+.cta {
+    background-color: #333;
+    color: #fff;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 1rem;
+    transition: background-color 0.3s;
+}
+
+.cta:hover {
+    background-color: #ff3300;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    .navbar {
+        flex-wrap: wrap;
+    }
+
+    .navbar ul {
+        flex-direction: column;
+        width: 100%;
+        display: none;
+    }
+
+    .navbar ul li {
+        margin: 0.5rem 0;
+    }
+
+    .navbar ul.active {
+        display: flex;
+    }
+
+    .navbar .menu-toggle {
+        display: block;
+        cursor: pointer;
+        font-size: 1.5rem;
+        color: #fff;
+    }
+
+    .navbar .menu-toggle.active {
+        color: #333;
+    }
+
+    .cta {
+        margin-top: 1rem;
+    }
+}
+
+.hero-header{
+    text-align: center;
+   
+    font-weight: bolder;
+
+}
+.menu{
+    font-weight: bolder;
+    text-align: center;
+    color: #ff3300;
+    padding-top: 3rem;
+}
+.imgs{
+    width: 17rem;
+    height: 17rem;
+    border-radius: 10px;
+}
+.container{
+    display: flex;
+    justify-content: center;
+}
+.imgbox{
+  margin-top: 3rem;
+  margin-left: 5rem;
+   border: 2px solid #ff3300;
+   padding: 20px 10px;
+   max-width: 300px;
+   border-radius: 10px;
+}
+.add-to-cart{
+    padding: 10px 30px;
+    background-color: #ff3300;
+    border: none;
+    color:#fff;
+    border-radius: 10px;
+}
+
+.menu-categories {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 2rem;
+}
+
+.category {
+    background-color: #ff6600;
+    color: #fff;
+    border: none;
+    padding: 0.75rem 1.5rem;
+    font-size: 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.category:hover {
+    background-color: #ff3300;
+}
+
+.category.active {
+    background-color: #333;
+}
