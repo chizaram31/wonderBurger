@@ -1,1 +1,2 @@
 # wonderBurger
+A simple web application with three pages: index.html (home page), a Menu.html (menu) and cart.html (shopping cart). It features static content, images, and is hosted using GitHub Pages,this is to showcasing basic HTML and web development skills for a course program HTML and Css.
